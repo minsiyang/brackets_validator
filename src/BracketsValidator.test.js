@@ -8,4 +8,8 @@ describe("bracketsValidator", () => {
   it('returns false when passes in "(" ', () => {
     expect(bracketsValidator('(')).toBe(false);
   })
+
+  it('return true when passed in "()" ', () => {
+    expect(bracketsValidator('()')).toBe(true);
+  })
 })

@@ -38,3 +38,4 @@ Function: getValidation(), return true or false according to the input
 |    :--:         |   :--:        |
 |     " "         |     true      |
 |     "("         |     false     |
+|     "()"        |     true      |

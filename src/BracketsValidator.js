@@ -1,5 +1,5 @@
 function bracketsValidator(string) {
-  if (string === "") {
+  if (string === "" || string[0] === "(" && string[1] === ")" ) {
     return true
   } else {
     return false
