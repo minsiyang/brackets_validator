@@ -12,4 +12,8 @@ describe("bracketsValidator", () => {
   it('return true when passed in "()" ', () => {
     expect(bracketsValidator('()')).toBe(true);
   })
+
+  it('return true when passed in "[]" ', () => {
+    expect(bracketsValidator('[]')).toBe(true);
+  })
 })
