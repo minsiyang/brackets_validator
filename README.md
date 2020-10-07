@@ -28,3 +28,13 @@ Example 5:
 Input: "{[]}"
 Output: true
 ```
+
+Function: getValidation(), return true or false according to the input
+        - brackets must be closed by the same type
+        - open brakets must be close in the correct order
+        - empty string would return true
+
+|     input       |     output    |
+|    :--:         |   :--:        |
+|     " "         |     true      |
+|                 |               |
