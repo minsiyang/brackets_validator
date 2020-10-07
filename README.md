@@ -40,3 +40,4 @@ Function: getValidation(), return true or false according to the input
 |     "("         |     false     |
 |     "()"        |     true      |
 |     "[]"        |     true      |
+|     "{}"        |     true      |
