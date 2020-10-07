@@ -5,7 +5,7 @@ function bracketsValidator(string) {
     "{": "}"
   }
 
-  if (string === "" || 
+  if (string === "" || string.length === 2 &&
       string[1] === data[string[0]]) {
       // string[0] === "(" && string[1] === ")" ||
       // string[0] === "[" && string[1] === "]" ||
