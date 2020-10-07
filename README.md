@@ -37,4 +37,4 @@ Function: getValidation(), return true or false according to the input
 |     input       |     output    |
 |    :--:         |   :--:        |
 |     " "         |     true      |
-|                 |               |
+|     "("         |     false     |

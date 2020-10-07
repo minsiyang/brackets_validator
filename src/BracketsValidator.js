@@ -1,4 +1,8 @@
 function bracketsValidator(string) {
-  return true
+  if (string === "") {
+    return true
+  } else {
+    return false
+  }
 }
 module.exports = bracketsValidator;
